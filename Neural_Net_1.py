@@ -83,7 +83,7 @@ class SnakeNN:
     def model(self):
         network = input_data(shape=[None, 4, 1], name='input')
         network = fully_connected(network, 1, activation='linear')
-        network = regression(network, optimizer='Henry Hoover', learning_rate=self.lr, loss='mean_square', name='target')
+        network = regression(network, optimizer='adam', learning_rate=self.lr, loss='mean_square', name='target')
         model = tflearn.DNN(network, tensorboard_dir='log')
         return model
 
@@ -154,4 +154,5 @@ class SnakeNN:
         self.test_model(nn_model)
 
 if __name__ == "__main__":
-    SnakeNN().train()
+    #SnakeNN().train()
+    SnakeNN().visualise()

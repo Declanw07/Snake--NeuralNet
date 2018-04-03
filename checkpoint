@@ -1,2 +1,2 @@
-model_checkpoint_path: "C:\\Users\\decla\\Desktop\\Snake--NeuralNet\\snake_nn_2.tflearn"
-all_model_checkpoint_paths: "C:\\Users\\decla\\Desktop\\Snake--NeuralNet\\snake_nn_2.tflearn"
+model_checkpoint_path: "C:\\Users\\decla\\Desktop\\Snake--NeuralNet\\SNN_2.tflearn"
+all_model_checkpoint_paths: "C:\\Users\\decla\\Desktop\\Snake--NeuralNet\\SNN_2.tflearn"
